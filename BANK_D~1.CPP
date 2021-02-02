@@ -31,7 +31,7 @@ cin>>acct;
 }
 void bank::diposit()
 {
-cout<<endl<<"HOW MUCH MONEY YOU WANT TO DIPOSIT IN YOUUR ACCOUNT"<<"\n";
+cout<<endl<<"HOW MUCH MONEY YOU WANT TO DIPOSIT IN YOUR ACCOUNT"<<"\n";
 cin>>dip;
 bl=bl+dip;
 }
@@ -39,12 +39,12 @@ void bank::withdrow()
 {
 abc:
 cout<<endl<<"YOU HAVE "<<bl<<"MONEY IN YOUR ACCOUNT"<<"\n";
-cout<<endl<<"HOW MUCH MPONEY YOU WANT TO WITHROW"<<endl;
+cout<<endl<<"HOW MUCH MONEY YOU WANT TO WITHDRAW"<<endl;
 cin>>wid;
 
 if(wid>bl)
 	{
-cout<<endl<<"SORRY THE MONEY YOU HAVE ENTERED IS MORE THAN THE THE MONEY YOU HAVE IN YOUR ACCOUNT"<<"\n";
+cout<<endl<<"SORRY THE MONEY YOU HAVE ENTERED IS MORE THAN THE MONEY YOU HAVE IN YOUR ACCOUNT"<<"\n";
 cout<<endl<<"TRY AGIN"<<"\n";
 goto abc;  }
 else
@@ -52,9 +52,9 @@ bl=bl-wid;
 }
 void bank::display1()
 {
-cout<<endl<<"THANKYOU FOR BANING WITH US"<<"\n";
+cout<<endl<<"THANKYOU FOR BANKING WITH US"<<"\n";
 cout<<endl<<name;
-cout<<endl<<"YOU HAVE "<<bl<<" MONEY IN YOUR ACCOUNT"<<"\n";
+cout<<endl<<"YOU HAVE "<<bl<<" AMOUNT IN YOUR ACCOUNT"<<"\n";
 }
 void bank::display2()
 {
